@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentos | Eleazar Mejico</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Orbitron:wght@400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black text-gray-200 font-[Orbitron]">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-gray-900/80 backdrop-blur-md z-50 shadow-lg">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold text-blue-500">Eleazar</h1>
+
+      <!-- Menú en escritorio -->
+      <ul class="hidden md:flex space-x-6 text-gray-300">
+        <li><a href="index.html" class="hover:text-blue-400">Inicio</a></li>
+        <li><a href="sobre-mi.html" class="hover:text-blue-400">Sobre Mí</a></li>
+        <li><a href="proyectos.html" class="hover:text-blue-400">Proyectos</a></li>
+        <li><a href="educacion.html" class="hover:text-blue-400">Educación</a></li>
+        <li><a href="documentos.html" class="hover:text-blue-400">Documentos</a></li>
+        <li><a href="contacto.html" class="hover:text-blue-400">Contacto</a></li>
+      </ul>
+
+      <!-- Botón hamburguesa -->
+      <button id="menu-btn" class="md:hidden text-gray-200 text-2xl focus:outline-none">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Menú móvil -->
+    <div id="mobile-menu" class="hidden md:hidden bg-gray-900/95 backdrop-blur-md">
+      <ul class="flex flex-col space-y-4 px-6 py-6 text-gray-300 text-lg">
+        <li><a href="index.html" class="hover:text-blue-400">Inicio</a></li>
+        <li><a href="sobre-mi.html" class="hover:text-blue-400">Sobre Mí</a></li>
+        <li><a href="proyectos.html" class="hover:text-blue-400">Proyectos</a></li>
+        <li><a href="educacion.html" class="hover:text-blue-400">Educación</a></li>
+        <li><a href="documentos.html" class="hover:text-blue-400">Documentos</a></li>
+        <li><a href="contacto.html" class="hover:text-blue-400">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Documentos -->
+  <section class="pt-32 max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold mb-10 text-blue-500 text-center">Mis Documentos</h2>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Documento 1 -->
+      <div class="bg-gray-900 rounded-xl p-6 shadow-lg flex flex-col items-center">
+        <i class="fas fa-file-pdf text-red-500 text-5xl mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Actores y organización del proyecto web</h3>
+        <p class="text-gray-400 text-sm mb-4 text-center">Documento Donde identificamos los diferentes procesos y actores.</p>
+        <div class="flex space-x-4">
+          <a href="assets/docs/tarea1.pdf" target="_blank" class="px-4 py-2 bg-blue-600 rounded-lg text-sm hover:bg-blue-500 flex items-center space-x-2">
+            <i class="fas fa-eye"></i><span>Ver</span>
+          </a>
+          <a href="assets/docs/tarea1.pdf" download class="px-4 py-2 bg-green-600 rounded-lg text-sm hover:bg-green-500 flex items-center space-x-2">
+            <i class="fas fa-download"></i><span>Descargar</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Documento 2 -->
+      <div class="bg-gray-900 rounded-xl p-6 shadow-lg flex flex-col items-center">
+        <i class="fas fa-file-pdf text-red-500 text-5xl mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Planificación inicial del proyecto web </h3>
+        <p class="text-gray-400 text-sm mb-4 text-center">Este documento servirá como base para el desarrollo del proyecto</p>
+        <div class="flex space-x-4">
+          <a href="assets/docs/tarea2.pdf" target="_blank" class="px-4 py-2 bg-blue-600 rounded-lg text-sm hover:bg-blue-500 flex items-center space-x-2">
+            <i class="fas fa-eye"></i><span>Ver</span>
+          </a>
+          <a href="assets/docs/tarea2.pdf" download class="px-4 py-2 bg-green-600 rounded-lg text-sm hover:bg-green-500 flex items-center space-x-2">
+            <i class="fas fa-download"></i><span>Descargar</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Documento 3 -->
+      <div class="bg-gray-900 rounded-xl p-6 shadow-lg flex flex-col items-center">
+        <i class="fas fa-file-pdf text-red-500 text-5xl mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Plan de Estudios</h3>
+        <p class="text-gray-400 text-sm mb-4 text-center">Cronograma y plan académico de la carrera.</p>
+        <div class="flex space-x-4">
+          <a href="assets/docs/tarea3.pdf" target="_blank" class="px-4 py-2 bg-blue-600 rounded-lg text-sm hover:bg-blue-500 flex items-center space-x-2">
+            <i class="fas fa-eye"></i><span>Ver</span>
+          </a>
+          <a href="assets/docs/tarea3.pdf" download class="px-4 py-2 bg-green-600 rounded-lg text-sm hover:bg-green-500 flex items-center space-x-2">
+            <i class="fas fa-download"></i><span>Descargar</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
